@@ -1,9 +1,19 @@
-.backgroundContainer{
-    height: 100vh;
+.backgroundContainer {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  background-image: url("https://i2.wp.com/www.losconquistadoresespanoles.es/wp-content/uploads/2019/05/losconquistadorespa%C3%B1oles.es-Wallpaper-Age-of-Empires-2-HD-Edition-003.jpg?fit=1920%2C1080&ssl=1");
+}
 
-    background-image:url("https://i2.wp.com/www.losconquistadoresespanoles.es/wp-content/uploads/2019/05/losconquistadorespa%C3%B1oles.es-Wallpaper-Age-of-Empires-2-HD-Edition-003.jpg?fit=1920%2C1080&ssl=1") ;
-  }
+.homeMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bolder;
 
-  .homeMenu{
-    display: flex;
-  }
+}
+
+.homeMenu .card {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+}
