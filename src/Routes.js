@@ -3,7 +3,7 @@ import { Home } from '../src/pages/Home';
 import { Units } from './pages/Units';
 import { Civilizations } from './pages/Civilizations';
 import { Stats } from './pages/Stats';
-import { Navbar } from './components/Navbar';
+
 
 
 

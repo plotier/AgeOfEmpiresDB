@@ -1,0 +1,11 @@
+.iconCivilization{
+    width: 6rem;
+    height: 6rem;
+}
+
+.cardCivilizationList{
+    align-items: center;
+    width: 20%;
+    margin: 10px;
+    border: solid;
+}
