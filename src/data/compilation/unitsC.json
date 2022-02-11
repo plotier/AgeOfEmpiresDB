@@ -1,0 +1,1927 @@
+[
+    {
+        "id": 3415,
+        "name": "Elite Steppe Lancer",
+        "slug": "elite_steppe_lancer",
+        "icon_url": ".png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1125
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3367,
+        "name": "Cavalier",
+        "slug": "cavalier",
+        "icon_url": "Cavalier_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1106
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3362,
+        "name": "Cannon Galleon",
+        "slug": "cannon_galleon",
+        "icon_url": "Cannon_galleon_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1085
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3407,
+        "name": "Elite Mameluke",
+        "slug": "elite_mameluke",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Saracens",
+            "slug": "saracens"
+        },
+        "unit_line": {
+            "id": 1112
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3392,
+        "name": "Elite Gbeto",
+        "slug": "elite_gbeto",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Malians",
+            "slug": "malians"
+        },
+        "unit_line": {
+            "id": 1096
+        },
+        "unit_counters": [],
+        "category": "infantry"
+    },
+    {
+        "id": 3417,
+        "name": "Elite Teutonic Knight",
+        "slug": "elite_teutonic_knight",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Teutons",
+            "slug": "teutons"
+        },
+        "unit_line": {
+            "id": 1127
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3405,
+        "name": "Elite Longbowman",
+        "slug": "elite_longbowman",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Britons",
+            "slug": "britons"
+        },
+        "unit_line": {
+            "id": 1110
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3354,
+        "name": "Battering Ram",
+        "slug": "battering_ram",
+        "icon_url": "Battering_ram_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1079
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3370,
+        "name": "Chu Ko Nu",
+        "slug": "chu_ko_nu",
+        "icon_url": "ChukoNuIcon-DE.png",
+        "is_unique": true,
+        "civilization": null,
+        "unit_line": {
+            "id": 1089
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3394,
+        "name": "Elite Genitour",
+        "slug": "elite_genitour",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Berbers",
+            "slug": "berbers"
+        },
+        "unit_line": {
+            "id": 1097
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3398,
+        "name": "Elite Kamayuk",
+        "slug": "elite_kamayuk",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Incas",
+            "slug": "incas"
+        },
+        "unit_line": {
+            "id": 1102
+        },
+        "unit_counters": [],
+        "category": "infantry"
+    },
+    {
+        "id": 3352,
+        "name": "Archer",
+        "slug": "archer",
+        "icon_url": "Archer_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1077
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3402,
+        "name": "Elite Konnik",
+        "slug": "elite_konnik",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Bulgarians",
+            "slug": "bulgarians"
+        },
+        "unit_line": {
+            "id": 1107
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3368,
+        "name": "Cavalry Archer",
+        "slug": "cavalry_archer",
+        "icon_url": "Cavalryarcher_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1088
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3350,
+        "name": "Arambai",
+        "slug": "arambai",
+        "icon_url": "Arambaiicon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Burmese",
+            "slug": "burmese"
+        },
+        "unit_line": {
+            "id": 1076
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3401,
+        "name": "Elite Kipchak",
+        "slug": "elite_kipchak",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Cumans",
+            "slug": "cumans"
+        },
+        "unit_line": {
+            "id": 1105
+        },
+        "unit_counters": [],
+        "category": "cavalry_archers"
+    },
+    {
+        "id": 3388,
+        "name": "Elite Chu Ko Nu",
+        "slug": "elite_chu_ko_nu",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": null,
+        "unit_line": {
+            "id": 1089
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3360,
+        "name": "Camel Archer",
+        "slug": "camel_archer",
+        "icon_url": "CamelArcherIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Berbers",
+            "slug": "berbers"
+        },
+        "unit_line": {
+            "id": 1083
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3375,
+        "name": "Demolition Ship",
+        "slug": "demolition_ship",
+        "icon_url": "Demoship_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1091
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3416,
+        "name": "Elite Tarkan",
+        "slug": "elite_tarkan",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Huns",
+            "slug": "huns"
+        },
+        "unit_line": {
+            "id": 1126
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3369,
+        "name": "Champion",
+        "slug": "champion",
+        "icon_url": "Champion_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1115
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3380,
+        "name": "Elite Ballista Elephant",
+        "slug": "elite_ballista_elephant",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Khmer",
+            "slug": "khmer"
+        },
+        "unit_line": {
+            "id": 1078
+        },
+        "unit_counters": [],
+        "category": "siege"
+    },
+    {
+        "id": 3361,
+        "name": "Camel Rider",
+        "slug": "camel_rider",
+        "icon_url": "Camelrider_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1084
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3377,
+        "name": "Eagle Warrior",
+        "slug": "eagle_warrior",
+        "icon_url": "Eaglewarrior_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1092
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3400,
+        "name": "Elite Keshik",
+        "slug": "elite_keshik",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Tatars",
+            "slug": "tatars"
+        },
+        "unit_line": {
+            "id": 1104
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3382,
+        "name": "Elite Berserk",
+        "slug": "elite_berserk",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Vikings",
+            "slug": "vikings"
+        },
+        "unit_line": {
+            "id": 1081
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3418,
+        "name": "Elite Throwing Axeman",
+        "slug": "elite_throwing_axeman",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Franks",
+            "slug": "franks"
+        },
+        "unit_line": {
+            "id": 1128
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3365,
+        "name": "Castle",
+        "slug": "castle",
+        "icon_url": "Castle.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": null,
+        "unit_counters": [
+            {
+                "reason": "Around 9 Petards will take down a Castle with full HP, but it can be tricky for them to reach it if it's well defended",
+                "unit_type": "unit",
+                "unit_id": 3466
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3484
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3357
+            },
+            {
+                "reason": "When massed, they're able to take down Castles fairly quickly without taking too many losses",
+                "unit_type": "unit_line",
+                "unit_id": 1099
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1085
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1079
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1130
+            }
+        ],
+        "category": "other"
+    },
+    {
+        "id": 3412,
+        "name": "Elite Samurai",
+        "slug": "elite_samurai",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Japanese",
+            "slug": "japanese"
+        },
+        "unit_line": {
+            "id": 1119
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3355,
+        "name": "Battle Elephant",
+        "slug": "battle_elephant",
+        "icon_url": "Battle_elephant_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1080
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3403,
+        "name": "Elite Leitis",
+        "slug": "elite_leitis",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Lithuanians",
+            "slug": "lithuanians"
+        },
+        "unit_line": {
+            "id": 1108
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3383,
+        "name": "Elite Boyar",
+        "slug": "elite_boyar",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Slavs",
+            "slug": "slavs"
+        },
+        "unit_line": {
+            "id": 1082
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3419,
+        "name": "Elite Turtle Ship",
+        "slug": "elite_turtle_ship",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Koreans",
+            "slug": "koreans"
+        },
+        "unit_line": {
+            "id": 1129
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3374,
+        "name": "Demolition Raft",
+        "slug": "demolition_raft",
+        "icon_url": "Demoraft_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1091
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3364,
+        "name": "Caravel",
+        "slug": "caravel",
+        "icon_url": "CaravelIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Portuguese",
+            "slug": "portuguese"
+        },
+        "unit_line": {
+            "id": 1086
+        },
+        "unit_counters": [],
+        "category": "naval"
+    },
+    {
+        "id": 3408,
+        "name": "Elite Mangudai",
+        "slug": "elite_mangudai",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Mongols",
+            "slug": "mongols"
+        },
+        "unit_line": {
+            "id": 1114
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3411,
+        "name": "Elite Rattan Archer",
+        "slug": "elite_rattan_archer",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Vietnamese",
+            "slug": "vietnamese"
+        },
+        "unit_line": {
+            "id": 1118
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3410,
+        "name": "Elite Plumed Archer",
+        "slug": "elite_plumed_archer",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Mayans",
+            "slug": "mayans"
+        },
+        "unit_line": {
+            "id": 1117
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3396,
+        "name": "Elite Jaguar Warrior",
+        "slug": "elite_jaguar_warrior",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Aztecs",
+            "slug": "aztecs"
+        },
+        "unit_line": {
+            "id": 1100
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3363,
+        "name": "Capped Ram",
+        "slug": "capped_ram",
+        "icon_url": "Capped_ram_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1079
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3371,
+        "name": "Condottiero",
+        "slug": "condottiero",
+        "icon_url": "CondottieroIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Italians",
+            "slug": "italians"
+        },
+        "unit_line": null,
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1077
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1120
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1082
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1127
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1119
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1087
+            }
+        ],
+        "category": "infantry"
+    },
+    {
+        "id": 3395,
+        "name": "Elite Huskarl",
+        "slug": "elite_huskarl",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Goths",
+            "slug": "goths"
+        },
+        "unit_line": {
+            "id": 1099
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3393,
+        "name": "Elite Genoese Crossbowman",
+        "slug": "elite_genoese_crossbowman",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Italians",
+            "slug": "italians"
+        },
+        "unit_line": {
+            "id": 1098
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3356,
+        "name": "Berserk",
+        "slug": "berserk",
+        "icon_url": "BerserkIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Vikings",
+            "slug": "vikings"
+        },
+        "unit_line": {
+            "id": 1081
+        },
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1077
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1118
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1117
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1089
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1110
+            }
+        ],
+        "category": null
+    },
+    {
+        "id": 3406,
+        "name": "Elite Magyar Huszar",
+        "slug": "elite_magyar_huszar",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Magyars",
+            "slug": "magyars"
+        },
+        "unit_line": {
+            "id": 1111
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3397,
+        "name": "Elite Janissary",
+        "slug": "elite_janissary",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Turks",
+            "slug": "turks"
+        },
+        "unit_line": {
+            "id": 1101
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3389,
+        "name": "Elite Conquistador",
+        "slug": "elite_conquistador",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Spanish",
+            "slug": "spanish"
+        },
+        "unit_line": {
+            "id": 1090
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3376,
+        "name": "Eagle Scout",
+        "slug": "eagle_scout",
+        "icon_url": "Eaglescout_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1092
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3420,
+        "name": "Elite War Elephant",
+        "slug": "elite_war_elephant",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Persians",
+            "slug": "persians"
+        },
+        "unit_line": {
+            "id": 1130
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3391,
+        "name": "Elite Elephant Archer",
+        "slug": "elite_elephant_archer",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Indians",
+            "slug": "indians"
+        },
+        "unit_line": {
+            "id": 1093
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3372,
+        "name": "Conquistador",
+        "slug": "conquistador",
+        "icon_url": "ConquistadorIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Spanish",
+            "slug": "spanish"
+        },
+        "unit_line": {
+            "id": 1090
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3358,
+        "name": "Boyar",
+        "slug": "boyar",
+        "icon_url": "BoyarIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Slavs",
+            "slug": "slavs"
+        },
+        "unit_line": {
+            "id": 1082
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3413,
+        "name": "Elite Shotel Warrior",
+        "slug": "elite_shotel_warrior",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Ethiopians",
+            "slug": "ethiopians"
+        },
+        "unit_line": {
+            "id": 1122
+        },
+        "unit_counters": [],
+        "category": "infantry"
+    },
+    {
+        "id": 3399,
+        "name": "Elite Karambit Warrior",
+        "slug": "elite_karambit_warrior",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Malay",
+            "slug": "malay"
+        },
+        "unit_line": {
+            "id": 1103
+        },
+        "unit_counters": [],
+        "category": "infantry"
+    },
+    {
+        "id": 3414,
+        "name": "Elite Skirmisher",
+        "slug": "elite_skirmisher",
+        "icon_url": "Elite_skirmisher_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1123
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3351,
+        "name": "Arbalest",
+        "slug": "arbalest",
+        "icon_url": "Arbalester_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1077
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3357,
+        "name": "Bombard Cannon",
+        "slug": "bombard_cannon",
+        "icon_url": "Bombard_cannon_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1138
+        },
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3439
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3473
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3371
+            },
+            {
+                "reason": "The Bombard Cannon is a very good counter to itself if it has better range than its opponents', a numbers advantage, or if they can be repaired by Villagers while in battle",
+                "unit_type": "unit",
+                "unit_id": 3357
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1106
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1084
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1092
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1111
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1087
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1132
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1126
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1114
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1121
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1125
+            }
+        ],
+        "category": "siege"
+    },
+    {
+        "id": 3387,
+        "name": "Elite Cataphract",
+        "slug": "elite_cataphract",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Byzantines",
+            "slug": "byzantines"
+        },
+        "unit_line": {
+            "id": 1087
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3378,
+        "name": "Elephant Archer",
+        "slug": "elephant_archer",
+        "icon_url": "ElephantArcherIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Indians",
+            "slug": "indians"
+        },
+        "unit_line": {
+            "id": 1093
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3366,
+        "name": "Cataphract",
+        "slug": "cataphract",
+        "icon_url": "CataphractIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Byzantines",
+            "slug": "byzantines"
+        },
+        "unit_line": {
+            "id": 1087
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3384,
+        "name": "Elite Camel Archer",
+        "slug": "elite_camel_archer",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Berbers",
+            "slug": "berbers"
+        },
+        "unit_line": {
+            "id": 1083
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3386,
+        "name": "Elite Caravel",
+        "slug": "elite_caravel",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Portuguese",
+            "slug": "portuguese"
+        },
+        "unit_line": {
+            "id": 1086
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3404,
+        "name": "Elite Longboat",
+        "slug": "elite_longboat",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Vikings",
+            "slug": "vikings"
+        },
+        "unit_line": {
+            "id": 1109
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3421,
+        "name": "Elite War Wagon",
+        "slug": "elite_war_wagon",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Koreans",
+            "slug": "koreans"
+        },
+        "unit_line": {
+            "id": 1131
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3409,
+        "name": "Elite Organ Gun",
+        "slug": "elite_organ_gun",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Portuguese",
+            "slug": "portuguese"
+        },
+        "unit_line": {
+            "id": 1116
+        },
+        "unit_counters": [],
+        "category": "siege"
+    },
+    {
+        "id": 3359,
+        "name": "Buildings (in general)",
+        "slug": "buildings",
+        "icon_url": "House.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": null,
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3484
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3466
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3357
+            },
+            {
+                "reason": "More effective when massed",
+                "unit_type": "unit_line",
+                "unit_id": 1113
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1099
+            },
+            {
+                "reason": "Particularly after Arson is researched in the Barracks",
+                "unit_type": "unit_line",
+                "unit_id": 1115
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1079
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1130
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1126
+            }
+        ],
+        "category": "other"
+    },
+    {
+        "id": 3488,
+        "name": "War Elephant",
+        "slug": "war_elephant",
+        "icon_url": "WarElephantIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Persians",
+            "slug": "persians"
+        },
+        "unit_line": {
+            "id": 1130
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3434,
+        "name": "Heavy Camel Rider",
+        "slug": "heavy_camel_rider",
+        "icon_url": "heavycamelriderDE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1084
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3485,
+        "name": "Turtle Ship",
+        "slug": "turtle_ship",
+        "icon_url": "TurtleShipIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Koreans",
+            "slug": "koreans"
+        },
+        "unit_line": {
+            "id": 1129
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3442,
+        "name": "Jaguar Warrior",
+        "slug": "jaguar_warrior",
+        "icon_url": "JaguarWarriorIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Aztecs",
+            "slug": "aztecs"
+        },
+        "unit_line": {
+            "id": 1100
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3430,
+        "name": "Genitour",
+        "slug": "genitour",
+        "icon_url": "GenitourIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Berbers",
+            "slug": "berbers"
+        },
+        "unit_line": {
+            "id": 1097
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3427,
+        "name": "Galleon",
+        "slug": "galleon",
+        "icon_url": "Galleon_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1095
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3470,
+        "name": "Samurai",
+        "slug": "samurai",
+        "icon_url": "SamuraiIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Japanese",
+            "slug": "japanese"
+        },
+        "unit_line": {
+            "id": 1119
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3440,
+        "name": "Imperial Skirmisher",
+        "slug": "imperial_skirmisher",
+        "icon_url": "Imperialskirmishericon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Vietnamese",
+            "slug": "vietnamese"
+        },
+        "unit_line": null,
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3371
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1115
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1121
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1106
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1080
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1113
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1120
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1084
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1125
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1087
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1130
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1126
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1111
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1082
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1107
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1108
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1104
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1092
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1132
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1128
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1099
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1119
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1127
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1081
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1100
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1102
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1122
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1096
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1103
+            }
+        ],
+        "category": "archers"
+    },
+    {
+        "id": 3468,
+        "name": "Plumed Archer",
+        "slug": "plumed_archer",
+        "icon_url": "PlumedArcherIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Mayans",
+            "slug": "mayans"
+        },
+        "unit_line": {
+            "id": 1117
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3373,
+        "name": "Crossbowman",
+        "slug": "crossbowman",
+        "icon_url": "Crossbowman_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1077
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3464,
+        "name": "Organ Gun",
+        "slug": "organ_gun",
+        "icon_url": "OrganGunIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Portuguese",
+            "slug": "portuguese"
+        },
+        "unit_line": {
+            "id": 1116
+        },
+        "unit_counters": [],
+        "category": "siege"
+    },
+    {
+        "id": 3429,
+        "name": "Gbeto",
+        "slug": "gbeto",
+        "icon_url": "GbetoIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Malians",
+            "slug": "malians"
+        },
+        "unit_line": {
+            "id": 1096
+        },
+        "unit_counters": [],
+        "category": "infantry"
+    },
+    {
+        "id": 3444,
+        "name": "Kamayuk",
+        "slug": "kamayuk",
+        "icon_url": "KamayukIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Incas",
+            "slug": "incas"
+        },
+        "unit_line": {
+            "id": 1102
+        },
+        "unit_counters": [],
+        "category": "infantry"
+    },
+    {
+        "id": 3477,
+        "name": "Skirmisher",
+        "slug": "skirmisher",
+        "icon_url": "Skirmisher_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1123
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3475,
+        "name": "Siege Ram",
+        "slug": "siege_ram",
+        "icon_url": "Siege_ram_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1079
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3425,
+        "name": "Flaming Camel",
+        "slug": "flaming_camel",
+        "icon_url": "Flaming_camel_icon.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Tatars",
+            "slug": "tatars"
+        },
+        "unit_line": null,
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3365
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3462
+            },
+            {
+                "reason": null,
+                "unit_type": "unit",
+                "unit_id": 3461
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1077
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1088
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1117
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1118
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1089
+            }
+        ],
+        "category": "siege"
+    },
+    {
+        "id": 3459,
+        "name": "Mangudai",
+        "slug": "mangudai",
+        "icon_url": "MangudaiIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Mongols",
+            "slug": "mongols"
+        },
+        "unit_line": {
+            "id": 1114
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3471,
+        "name": "Scorpion",
+        "slug": "scorpion",
+        "icon_url": "Scorpion_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1120
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3446,
+        "name": "Knight",
+        "slug": "knight",
+        "icon_url": "Knight_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1106
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3458,
+        "name": "Mangonel",
+        "slug": "mangonel",
+        "icon_url": "Mangonel_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1113
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3449,
+        "name": "Kipchak",
+        "slug": "kipchak",
+        "icon_url": "Kipchakicon.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Cumans",
+            "slug": "cumans"
+        },
+        "unit_line": {
+            "id": 1105
+        },
+        "unit_counters": [],
+        "category": "cavalry_archers"
+    },
+    {
+        "id": 3438,
+        "name": "Huskarl",
+        "slug": "huskarl",
+        "icon_url": "HuskarlIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Goths",
+            "slug": "goths"
+        },
+        "unit_line": {
+            "id": 1099
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3448,
+        "name": "Konnik",
+        "slug": "konnik",
+        "icon_url": "Konnikicon.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Bulgarians",
+            "slug": "bulgarians"
+        },
+        "unit_line": {
+            "id": 1107
+        },
+        "unit_counters": [],
+        "category": "cavalry"
+    },
+    {
+        "id": 3456,
+        "name": "Mameluke",
+        "slug": "mameluke",
+        "icon_url": "MamelukeIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Saracens",
+            "slug": "saracens"
+        },
+        "unit_line": {
+            "id": 1112
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3472,
+        "name": "Scout Cavalry",
+        "slug": "scout_cavalry",
+        "icon_url": "Scoutcavalry_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1121
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3457,
+        "name": "Man At Arms",
+        "slug": "man_at_arms",
+        "icon_url": "Manatarms_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1115
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3481,
+        "name": "Tarkan",
+        "slug": "tarkan",
+        "icon_url": "TarkanIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Huns",
+            "slug": "huns"
+        },
+        "unit_line": {
+            "id": 1126
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3379,
+        "name": "Elite Arambai",
+        "slug": "elite_arambai",
+        "icon_url": ".png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Burmese",
+            "slug": "burmese"
+        },
+        "unit_line": {
+            "id": 1076
+        },
+        "unit_counters": [],
+        "category": "archers"
+    },
+    {
+        "id": 3479,
+        "name": "Spearman",
+        "slug": "spearman",
+        "icon_url": "Spearman_aoe2DE.png",
+        "is_unique": false,
+        "civilization": null,
+        "unit_line": {
+            "id": 1124
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3443,
+        "name": "Janissary",
+        "slug": "janissary",
+        "icon_url": "JanissaryIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Turks",
+            "slug": "turks"
+        },
+        "unit_line": {
+            "id": 1101
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3482,
+        "name": "Teutonic Knight",
+        "slug": "teutonic_knight",
+        "icon_url": "TeutonicKnightIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Teutons",
+            "slug": "teutons"
+        },
+        "unit_line": {
+            "id": 1127
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3491,
+        "name": "Woad Raider",
+        "slug": "woad_raider",
+        "icon_url": "WoadRaiderIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Celts",
+            "slug": "celts"
+        },
+        "unit_line": {
+            "id": 1132
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3454,
+        "name": "Longbowman",
+        "slug": "longbowman",
+        "icon_url": "LongbowmanIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Britons",
+            "slug": "britons"
+        },
+        "unit_line": {
+            "id": 1110
+        },
+        "unit_counters": [],
+        "category": null
+    },
+    {
+        "id": 3461,
+        "name": "Missionary",
+        "slug": "missionary",
+        "icon_url": "MissionaryIcon-DE.png",
+        "is_unique": true,
+        "civilization": {
+            "name": "Spanish",
+            "slug": "spanish"
+        },
+        "unit_line": null,
+        "unit_counters": [
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1077
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1092
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1121
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1084
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1124
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1122
+            },
+            {
+                "reason": null,
+                "unit_type": "unit_line",
+                "unit_id": 1076
+            }
+        ],
+        "category": "monastery"
+    }
+]

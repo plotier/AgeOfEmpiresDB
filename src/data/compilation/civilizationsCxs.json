@@ -1,0 +1,353 @@
+[
+    {
+        "id": 110,
+        "name": "Celts",
+        "slug": "celts",
+        "icon_url": "/civ-icons/celts.png",
+        "short_description": "Infantry and siege weapons",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 124,
+        "name": "Koreans",
+        "slug": "koreans",
+        "icon_url": "/civ-icons/koreans.png",
+        "short_description": "Towers and navy",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 140,
+        "name": "Lithuanians",
+        "slug": "lithuanians",
+        "icon_url": "/civ-icons/lithuanians.png",
+        "short_description": "Cavalry and Monks",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 131,
+        "name": "Magyars",
+        "slug": "magyars",
+        "icon_url": "/civ-icons/magyars.png",
+        "short_description": "Cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 125,
+        "name": "Spanish",
+        "slug": "spanish",
+        "icon_url": "/civ-icons/spanish.png",
+        "short_description": "Monks and gunpowder units",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 135,
+        "name": "Burmese",
+        "slug": "burmese",
+        "icon_url": "/civ-icons/burmese.png",
+        "short_description": "Monks and elephants",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 108,
+        "name": "Byzantines",
+        "slug": "byzantines",
+        "icon_url": "/civ-icons/byzantines.png",
+        "short_description": "Defense",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 116,
+        "name": "Mongols",
+        "slug": "mongols",
+        "icon_url": "/civ-icons/mongols.png",
+        "short_description": "Cavalry archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 115,
+        "name": "Persians",
+        "slug": "persians",
+        "icon_url": "/civ-icons/persians.png",
+        "short_description": "Cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 120,
+        "name": "Teutons",
+        "slug": "teutons",
+        "icon_url": "/civ-icons/teutons.png",
+        "short_description": "Infantry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 132,
+        "name": "Portuguese",
+        "slug": "portuguese",
+        "icon_url": "/civ-icons/portuguese.png",
+        "short_description": "Navy and gunpowder units",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 117,
+        "name": "Turks",
+        "slug": "turks",
+        "icon_url": "/civ-icons/turks.png",
+        "short_description": "Gunpowder units",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 143,
+        "name": "Burgundians",
+        "slug": "burgundians",
+        "icon_url": "/civ-icons/burgundians.png",
+        "short_description": "Cavalry civilization",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 127,
+        "name": "Slavs",
+        "slug": "slavs",
+        "icon_url": "/civ-icons/slavs.png",
+        "short_description": "Infantry and siege weapons",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 137,
+        "name": "Vietnamese",
+        "slug": "vietnamese",
+        "icon_url": "/civ-icons/vietnamese.png",
+        "short_description": "Archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 119,
+        "name": "Vikings",
+        "slug": "vikings",
+        "icon_url": "/civ-icons/vikings.png",
+        "short_description": "Infantry and navy",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 121,
+        "name": "Saracens",
+        "slug": "saracens",
+        "icon_url": "/civ-icons/saracens.png",
+        "short_description": "Cavalry and navy",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 109,
+        "name": "Franks",
+        "slug": "franks",
+        "icon_url": "/civ-icons/franks.png",
+        "short_description": "Cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 113,
+        "name": "Chinese",
+        "slug": "chinese",
+        "icon_url": "/civ-icons/chinese.png",
+        "short_description": "Archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 128,
+        "name": "Incas",
+        "slug": "incas",
+        "icon_url": "/civ-icons/incas.png",
+        "short_description": "Infantry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 139,
+        "name": "Cumans",
+        "slug": "cumans",
+        "icon_url": "/civ-icons/cumans.png",
+        "short_description": "Cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 118,
+        "name": "Huns",
+        "slug": "huns",
+        "icon_url": "/civ-icons/huns.png",
+        "short_description": "Cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 136,
+        "name": "Malians",
+        "slug": "malians",
+        "icon_url": "/civ-icons/malians.png",
+        "short_description": "Infantry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 129,
+        "name": "Italians",
+        "slug": "italians",
+        "icon_url": "/civ-icons/italians.png",
+        "short_description": "Navy and archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 123,
+        "name": "Mayans",
+        "slug": "mayans",
+        "icon_url": "/civ-icons/mayans.png",
+        "short_description": "Archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 122,
+        "name": "Aztecs",
+        "slug": "aztecs",
+        "icon_url": "/civ-icons/aztecs.png",
+        "short_description": "Monks and infantry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 130,
+        "name": "Berbers",
+        "slug": "berbers",
+        "icon_url": "/civ-icons/berbers.png",
+        "short_description": "Navy and cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 112,
+        "name": "Britons",
+        "slug": "britons",
+        "icon_url": "/civ-icons/britons.png",
+        "short_description": "Foot archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 142,
+        "name": "Bulgarians",
+        "slug": "bulgarians",
+        "icon_url": "/civ-icons/bulgarians.png",
+        "short_description": "Infantry and Cavalry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 133,
+        "name": "Ethiopians",
+        "slug": "ethiopians",
+        "icon_url": "/civ-icons/ethiopians.png",
+        "short_description": "Archers and siege weapons",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 138,
+        "name": "Malay",
+        "slug": "malay",
+        "icon_url": "/civ-icons/malay.png",
+        "short_description": "Navy",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 114,
+        "name": "Goths",
+        "slug": "goths",
+        "icon_url": "/civ-icons/goths.png",
+        "short_description": "Infantry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 126,
+        "name": "Indians",
+        "slug": "indians",
+        "icon_url": "/civ-icons/indians.png",
+        "short_description": "Camel Riders and gunpowder units",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 145,
+        "name": "Bohemians",
+        "slug": "bohemians",
+        "icon_url": "/civ-icons/bohemians.png",
+        "short_description": "Gunpowder and Monk civilization ",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 111,
+        "name": "Japanese",
+        "slug": "japanese",
+        "icon_url": "/civ-icons/japanese.png",
+        "short_description": "Infantry",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 134,
+        "name": "Khmer",
+        "slug": "khmer",
+        "icon_url": "/civ-icons/khmer.png",
+        "short_description": "Siege weapons and elephants",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 141,
+        "name": "Tatars",
+        "slug": "tatars",
+        "icon_url": "/civ-icons/tatars.png",
+        "short_description": "Cavalry archers",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 146,
+        "name": "Poles",
+        "slug": "poles",
+        "icon_url": "/civ-icons/poles.png",
+        "short_description": "Cavalry civilization",
+        "unit": null,
+        "build_guides": []
+    },
+    {
+        "id": 144,
+        "name": "Sicilians",
+        "slug": "sicilians",
+        "icon_url": "/civ-icons/sicilians.png",
+        "short_description": "Infantry civilization ",
+        "unit": null,
+        "build_guides": []
+    }
+]
