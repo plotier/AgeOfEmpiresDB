@@ -1,0 +1,9 @@
+.popupSignUp{
+height: 20rem;
+width: 20rem;
+background-color: aliceblue;
+position: absolute;
+z-index: 1;
+margin: auto;
+border-radius: 5%;
+}

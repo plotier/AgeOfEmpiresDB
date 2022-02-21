@@ -4,3 +4,6 @@ margin:auto
 .navbarLogo img{
 width: 10rem;
 }
+.buttonSignLogNavbar{
+cursor: pointer;
+}
