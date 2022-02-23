@@ -7,6 +7,7 @@ import { Selector } from "./Selector";
 export const UnitsList = () => {
   const [units, setUnits] = useState([]);
   const [totalUnitData, setTotalUnitData]=useState()
+  const [totalUnitLineData, setTotalUnitLineData]=useState()
 
   useEffect(() => {
     axios
@@ -16,12 +17,21 @@ export const UnitsList = () => {
           { value: item.name, label: item.name }
         ))
         setUnits(unitsToSave)
-        let testing = res.data
-        setTotalUnitData(testing)
+        let totalUnitData = res.data
+        setTotalUnitData(totalUnitData)
       })
   }, []);
 
+  useEffect(()=>{
+    axios
+    .get('https://api.aoecompanion.com/unit-lines')
+    .then((res)=>{
+      let totalUnitLineData = res.data
+      setTotalUnitLineData(totalUnitLineData)
+    })
+  },[])
+
   return <div>
-    <Selector options={units} totalUnitData={totalUnitData} />
+    <Selector options={units} totalUnitData={totalUnitData} totalUnitLineData={totalUnitLineData} />
   </div>;
 };

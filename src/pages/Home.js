@@ -4,6 +4,7 @@ import castle from '../img/castle.png'
 import towncenter from '../img/towncenter.png'
 import defensive from '../img/defensive.png'
 import { Navbar } from '../components/Navbar'
+import {Link} from "react-router-dom"
 
 export const Home = (props) => {
     return (
@@ -15,7 +16,7 @@ export const Home = (props) => {
                 <div className="card-body text-center">
                     <h5 className="card-title">Units</h5>
                     <p className="card-text ">Exhaustive overview of every unit in the game</p>
-                    <a href="/units/" className="btn btn-dark">UNITS</a>
+                    <Link to="/units/" className="btn btn-dark">UNITS</Link>
                 </div>
             </div>
             <div className="cardSecondHome" style={{ width: "18rem", height:"21rem" }}>
@@ -23,7 +24,7 @@ export const Home = (props) => {
                 <div className="card-body text-center">
                     <h5 className="card-title">Civilizations</h5>
                     <p className="card-text">Exhaustive overview of every civilization in the game</p>
-                    <a href="/civilizations/" className="btn btn-dark">CIVILIZATIONS</a>
+                    <Link to="/civilizations/" className="btn btn-dark">CIVILIZATIONS</Link >
                 </div>
             </div>
             <div className="card" style={{ width: "18rem" , height:"26rem"}}>
@@ -31,7 +32,7 @@ export const Home = (props) => {
                 <div className="card-body text-center">
                     <h5 className="card-title">Stats</h5>
                     <p className="card-text">Exhaustive overview of stats in the game</p>
-                    <a href="/stats/" className="btn btn-dark">STATS</a>
+                    <Link to="/stats/"className="btn btn-dark">STATS</Link>
                 </div>
             </div>
 
