@@ -4,6 +4,7 @@ import '../styles/Navbar.css'
 import { useState } from 'react'
 import { SignUp } from './SignUp'
 import { useSelector, useDispatch } from 'react-redux'
+import{Link} from 'react-router-dom'
 
 export const Navbar = () => {
 
@@ -26,7 +27,7 @@ export const Navbar = () => {
                 <div className="col text-light">{users[users.length - 1].name}</div>
                 <div className="col-6 d-flex">
                     <div className='navbarLogo'>
-                        <img src={logo} alt="" />
+                    <Link to="/"><img src={logo} alt="" /></Link>     
                         <h5 className='text-center'>DATABASE</h5>
                     </div>
                 </div>

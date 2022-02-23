@@ -1,10 +1,14 @@
 import React from 'react'
-import {UnitsList} from '../components/UnitsList'
-
+import { UnitsList } from '../components/UnitsList'
+import { Navbar } from '../components/Navbar'
 
 export const Units = (props) => {
   return (
-    <div><UnitsList/></div>
+
+    <div>
+      <Navbar />
+      <UnitsList />
+    </div>
   )
 }
 

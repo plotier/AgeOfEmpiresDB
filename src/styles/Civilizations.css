@@ -1,7 +1,8 @@
 .backgroundContainerCivilization {
     font-family: 'Montserrat', sans-serif;
     height:100%;
-    background-image: url("https://fondosmil.com/fondo/23379.jpg");
+    background-image: url("../img/background1.jpg");
+    background-size: cover;
     color:white
   }
   

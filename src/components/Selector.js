@@ -1,5 +1,6 @@
 import React, { Component, useState, useEffect } from 'react'
 import Select from 'react-select'
+import '../styles/Selector.css'
 
 export const Selector = (props) => {
     const [units, setUnits] = useState(props.options)
@@ -20,12 +21,23 @@ export const Selector = (props) => {
 
     return (
         <div>
-            <Select options={units} onChange={e => selectHandler(e)} />
+            <Select className='selectStyle' options={units} onChange={e => selectHandler(e)} />
             {chosenUnit &&
                 <div>
+                    {chosenUnit[0].category}
+                    <h3>Name</h3>
+                    {chosenUnit[0].name}
+
+                    <h3>Counter Units</h3>
+
+                    {
+                        chosenUnit[0].unit_line == null &&
+                        chosenUnit[0].unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
+                            <li>{lastItem.name}</li>))
+                    }
+
                     {chosenUnit[0].unit_line !== null &&
                         unitsLineData.map(item => item.id == chosenUnit[0].unit_line.id &&
-
                             <div>
                                 <ul>
                                     <h3>Category</h3>
@@ -33,15 +45,17 @@ export const Selector = (props) => {
                                     <h3>Name</h3>
                                     {chosenUnit[0].name}
                                     <h3>Counter Units</h3>
-
                                     {
-                                        //   chosenUnit[0].id 
-                                        item.units.map(unit => unit.id == chosenUnit[0].id && item.unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id && <li>{lastItem.name}</li>)))
-
+                                        item.units.map(unit => unit.id == chosenUnit[0].id &&
+                                            item.unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
+                                                <li>{lastItem.name}</li>)))
                                     }
                                 </ul>
                             </div>
                         )}
+                    {chosenUnit[0].icon_url &&
+                        <img src={"https://aoecompanion.com/icons/" + chosenUnit[0].icon_url} alt="" />
+                    }
                 </div>
             }
 
