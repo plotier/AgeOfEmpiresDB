@@ -1,6 +1,7 @@
 import React, { Component, useState, useEffect } from 'react'
 import Select from 'react-select'
 import '../styles/Selector.css'
+import imperial from "../img/imperial.png"
 
 export const Selector = (props) => {
     const [units, setUnits] = useState(props.options)
@@ -22,20 +23,16 @@ export const Selector = (props) => {
     return (
         <div>
             <Select className='selectStyle' options={units} onChange={e => selectHandler(e)} />
+
+
             {chosenUnit &&
-                <div>
-                    {chosenUnit[0].category}
-                    <h3>Name</h3>
-                    {chosenUnit[0].name}
-
-                    <h3>Counter Units</h3>
-
-                    {
-                        chosenUnit[0].unit_line == null &&
-                        chosenUnit[0].unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
-                            <li>{lastItem.name}</li>))
-                    }
-
+                <div className='text-light d-flex row mt-5'>
+                    <div className="col d-flex justify-content-center">
+                        {chosenUnit[0].icon_url !== ".png" && ".jpg" ?
+                            <img className='unitSelectorIcon' src={"https://aoecompanion.com/icons/" + chosenUnit[0].icon_url} alt="" /> :
+                            <img className='unitSelectorIcon' src={imperial} alt="" />
+                        }</div>
+                    <div className="col d-flex justify-content-center ">
                     {chosenUnit[0].unit_line !== null &&
                         unitsLineData.map(item => item.id == chosenUnit[0].unit_line.id &&
                             <div>
@@ -53,9 +50,21 @@ export const Selector = (props) => {
                                 </ul>
                             </div>
                         )}
-                    {chosenUnit[0].icon_url &&
-                        <img src={"https://aoecompanion.com/icons/" + chosenUnit[0].icon_url} alt="" />
+                    </div>
+                  
+
+
+               
+
+                    {
+                        chosenUnit[0].unit_line == null &&
+                        chosenUnit[0].unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
+                            <li>{lastItem.name}</li>))
                     }
+
+
+
+
                 </div>
             }
 

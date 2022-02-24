@@ -5,3 +5,8 @@
     margin: auto;
     margin-top: 4rem;
 }
+.unitSelectorIcon{
+    max-width: 256px;
+    max-height: 256px;
+    border-radius: 100%;
+}

@@ -26,10 +26,6 @@ export const CivilizationList = () => {
   }, []);
 
   return (
-    <div>
-
-
-
       <div className=" d-flex flex-wrap justify-content-center">
         {
           civilizations.map(item =>
@@ -52,8 +48,7 @@ export const CivilizationList = () => {
               </div>
             </div>
           )}
-      </div>
-    </div>)
+      </div>)
 };
 //       <div className=" d-flex flex-raw flex-wrap justify-content-center">
 
