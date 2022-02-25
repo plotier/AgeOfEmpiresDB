@@ -27,34 +27,38 @@ export const Selector = (props) => {
 
             {chosenUnit &&
                 <div className='text-light d-flex row mt-5'>
-                    <div className="col d-flex justify-content-center">
+                 <div className="d-flex justify-content-center ">
                         {chosenUnit[0].icon_url !== ".png" && ".jpg" ?
-                            <img className='unitSelectorIcon' src={"https://aoecompanion.com/icons/" + chosenUnit[0].icon_url} alt="" /> :
-                            <img className='unitSelectorIcon' src={imperial} alt="" />
-                        }</div>
-                    <div className="col d-flex justify-content-center ">
-                    {chosenUnit[0].unit_line !== null &&
-                        unitsLineData.map(item => item.id == chosenUnit[0].unit_line.id &&
-                            <div>
-                                <ul>
-                                    <h3>Category</h3>
-                                    {item.category}
-                                    <h3>Name</h3>
-                                    {chosenUnit[0].name}
+                            <img className='unitSelectorIcon me-5' src={"https://aoecompanion.com/icons/" + chosenUnit[0].icon_url} alt="" /> :
+                            <img className='unitSelectorIcon me-5' src={imperial} alt="" />
+                        }
+                   
+                        {chosenUnit[0].unit_line !== null &&
+                            unitsLineData.map(item => item.id == chosenUnit[0].unit_line.id &&
+                                <div className='row'>
+                                    <div className="col">                                   <h3>Category</h3>
+                                        {item.category.toUpperCase()}
+                                        <h3>Name</h3>
+                                        {chosenUnit[0].name}
+                                       
+                                    </div>
+                                    <div className="col">
                                     <h3>Counter Units</h3>
-                                    {
-                                        item.units.map(unit => unit.id == chosenUnit[0].id &&
-                                            item.unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
-                                                <li>{lastItem.name}</li>)))
-                                    }
-                                </ul>
-                            </div>
-                        )}
+                                        <ul>
+                                            {
+                                                item.units.map(unit => unit.id == chosenUnit[0].id &&
+                                                    item.unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
+                                                        <li>{lastItem.name}</li>)))
+                                            }
+                                        </ul></div>
+
+                                </div>
+                            )}
                     </div>
-                  
 
 
-               
+
+
 
                     {
                         chosenUnit[0].unit_line == null &&

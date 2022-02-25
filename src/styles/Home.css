@@ -3,6 +3,7 @@
   height: 100vh;
   background-image: url("../img/background1.jpg");
   background-size: cover;
+  color:white;
 }
 
 .homeMenu {

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import '../styles/RatingList.css'
 
 export const RatingList = () => {
   const [leaderboard, setLeaderboard] = useState([]);
@@ -12,12 +13,13 @@ export const RatingList = () => {
       })
   }, []);
 
-  return <div>
-<ul>
-{
-leaderboard.map(item=>
-    <li key={item.rank}>{item.rank} - {item.name}</li>
-)}
-</ul>
-  </div>;
+  return (
+
+    <ul className="rankingUl">
+      {
+        leaderboard.map(item =>
+          <li key={item.rank}>{item.name}</li>
+        )}
+    </ul>
+  );
 };
