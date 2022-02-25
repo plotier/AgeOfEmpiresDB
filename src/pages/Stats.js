@@ -10,7 +10,7 @@ export const Stats = (props) => {
 
       <div className="row">
 <div className="col d-flex flex-column align-items-center">
-<h3>Single DE Ranking</h3>
+
 
       <RatingList />
 

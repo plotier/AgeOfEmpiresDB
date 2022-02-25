@@ -14,12 +14,44 @@ export const RatingList = () => {
   }, []);
 
   return (
+<div className="d-flex">
 
     <ul className="rankingUl">
+    <h5>Player</h5>
       {
         leaderboard.map(item =>
           <li key={item.rank}>{item.name}</li>
         )}
     </ul>
+
+    <ul className="rankingUlWins">
+    <h5>Wins</h5>
+      {
+        leaderboard.map(item =>
+          <li key={item.rank}>{item.wins}</li>
+        )}
+    </ul>
+    <ul className="rankingUlWins">
+    <h5>Losses</h5>
+      {
+        leaderboard.map(item =>
+          <li key={item.rank}>{item.losses}</li>
+        )}
+    </ul>
+    <ul className="rankingUlWins">
+    <h5>Games</h5>
+      {
+        leaderboard.map(item =>
+          <li key={item.rank}>{item.games}</li>
+        )}
+    </ul>
+    <ul className="rankingUlWins">
+    <h5>Streak</h5>
+      {
+        leaderboard.map(item =>
+          <li key={item.rank}>{item.streak}</li>
+        )}
+    </ul>
+    </div>
   );
 };

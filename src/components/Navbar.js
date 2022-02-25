@@ -24,7 +24,7 @@ export const Navbar = () => {
         <div>
             <SignUp trigger={openedSignup} triggerOff={openSignupModal} />
             <nav className="navbar navbar-light bg-transparent row">
-                <div className="col text-light">{users[users.length - 1].name}</div>
+                <div className="col d-flex justify-content-center text-light">{users[users.length - 1].name} {users[users.length - 1].lastName}</div>
                 <div className="col-6 d-flex">
                     <div className='navbarLogo'>
                     <Link to="/"><img src={logo} alt="" /></Link>     
