@@ -34,11 +34,11 @@ export const Navbar = () => {
             <Login trigger={openedLogin} closingFunction={openLoginModal} />
             <SignUp trigger={openedSignup} triggerOff={openSignupModal} />
             <nav className="navbar navbar-light bg-transparent row">
-              <div className="col d-flex justify-content-center text-light">{logged&&userLogged.name}</div>
+              <div className="col d-flex justify-content-center dbBox2">{logged&&userLogged.name}</div>
                 <div className="col-6 d-flex">
                     <div className='navbarLogo'>
                         <Link to="/"><img src={logo} alt="" /></Link>
-                        <h5 className='text-center'>DATABASE</h5>
+                        <h5 className='text-center dbBox'>DATABASE</h5>
                     </div>
                 </div>
 {    !logged&&             <div className="col d-flex justify-content-end">

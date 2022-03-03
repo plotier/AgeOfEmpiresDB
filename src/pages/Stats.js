@@ -7,19 +7,11 @@ export const Stats = (props) => {
   return (
     <div className='backgroundRatingListContainer'>
       <Navbar />
-
       <div className="row">
-<div className="d-flex flex-column align-items-center">
-
-
-      <RatingList />
-
-</div>
-
-
+        <div className="d-flex flex-column align-items-center">
+          <RatingList />
+        </div>
       </div>
-
-
     </div>
   )
 }

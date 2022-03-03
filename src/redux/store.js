@@ -4,7 +4,6 @@ import reducer from "./reducers/index";
 import { devToolsEnhancer } from 'redux-devtools-extension';
 
 const initialState = {
-
     users:[],
     logged:false
 }
