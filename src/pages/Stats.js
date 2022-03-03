@@ -9,13 +9,13 @@ export const Stats = (props) => {
       <Navbar />
 
       <div className="row">
-<div className="col d-flex flex-column align-items-center">
+<div className="d-flex flex-column align-items-center">
 
 
       <RatingList />
 
 </div>
-<div className="col"></div>
+
 
       </div>
 

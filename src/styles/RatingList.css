@@ -3,7 +3,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
+ 
 }
 
 /* List */
@@ -26,7 +26,7 @@
   /* Element counter */
   .rankingUl li::before {
     content: counters(index, ".", decimal-leading-zero);
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: right;
     font-weight: bold;
     min-width: 50px;
