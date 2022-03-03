@@ -12,21 +12,7 @@ export const SignUp = props => {
             [e.target.name]: e.target.value
         })
     }
-    // const [usuariosGuardados, setUsuariosGuardados] = useState([])
-    // const savingUser = (event) => {
-    //     event.preventDefault();
-    //     setUsuariosGuardados([...usuariosGuardados,
-    //         datosUsuario
-    //     ])
-    //     props.triggerOff()
-    // }
-    // useEffect(() => {
-    //     if (usuariosGuardados.length > 0) {
-    //         localStorage.setItem('userSaved', JSON.stringify(usuariosGuardados))
-    //     }
-    // }, [usuariosGuardados])
-
-
+    
     const dispatch = useDispatch();
     const users = useSelector (state=>state.users);
 
@@ -41,8 +27,13 @@ export const SignUp = props => {
         }
         dispatch(addUserAction(newUser))
         setDatosUsuario("");
-        props.triggerOff()
+        props.triggerOff() 
+        localStorage.setItem('userSaved', JSON.stringify([...users,newUser]))
     }
+
+    // useEffect(() => {
+    // localStorage.setItem('userSaved', JSON.stringify(users))
+    // }, [addUser]) 
 
     return (
         props.trigger &&
@@ -59,4 +50,6 @@ export const SignUp = props => {
         </div>
     )
 }
+
+
 

@@ -3,6 +3,7 @@ import logo from '../img/logoAOE2.png'
 import '../styles/Navbar.css'
 import { useState } from 'react'
 import { SignUp } from './SignUp'
+import { Login } from './Login'
 import { useSelector, useDispatch } from 'react-redux'
 import{Link} from 'react-router-dom'
 
@@ -20,11 +21,13 @@ export const Navbar = () => {
 
     const dispatch = useDispatch();
     const users = useSelector(state => state.users);
+    const logged = useSelector(state => state.logged);
     return (
         <div>
+             <Login trigger={openedLogin} closingFunction={openLoginModal} />
             <SignUp trigger={openedSignup} triggerOff={openSignupModal} />
             <nav className="navbar navbar-light bg-transparent row">
-                <div className="col d-flex justify-content-center text-light">{users[users.length - 1].name} {users[users.length - 1].lastName}</div>
+             {logged&&   <div className="col d-flex justify-content-center text-light">{users[users.length - 1].name} {users[users.length - 1].lastName}</div> }
                 <div className="col-6 d-flex">
                     <div className='navbarLogo'>
                     <Link to="/"><img src={logo} alt="" /></Link>     
