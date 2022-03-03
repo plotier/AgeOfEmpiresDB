@@ -5,7 +5,8 @@ import { useState } from 'react'
 import { SignUp } from './SignUp'
 import { Login } from './Login'
 import { useSelector, useDispatch } from 'react-redux'
-import{Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import {  loginUser } from "../redux/actions";
 
 export const Navbar = () => {
 
@@ -18,27 +19,36 @@ export const Navbar = () => {
     const openSignupModal = () => {
         setOpenedSignup(openedSignup => !openedSignup)
     }
+    const valueUserLogged = localStorage.getItem('loggedUser');
+    const userLogged = JSON.parse(valueUserLogged);
+
+    const logOutHandler = () =>{
+        dispatch(loginUser())
+    }
 
     const dispatch = useDispatch();
     const users = useSelector(state => state.users);
     const logged = useSelector(state => state.logged);
     return (
         <div>
-             <Login trigger={openedLogin} closingFunction={openLoginModal} />
+            <Login trigger={openedLogin} closingFunction={openLoginModal} />
             <SignUp trigger={openedSignup} triggerOff={openSignupModal} />
             <nav className="navbar navbar-light bg-transparent row">
-             {logged&&   <div className="col d-flex justify-content-center text-light">{users[users.length - 1].name} {users[users.length - 1].lastName}</div> }
+              <div className="col d-flex justify-content-center text-light">{logged&&userLogged.name}</div>
                 <div className="col-6 d-flex">
                     <div className='navbarLogo'>
-                    <Link to="/"><img src={logo} alt="" /></Link>     
+                        <Link to="/"><img src={logo} alt="" /></Link>
                         <h5 className='text-center'>DATABASE</h5>
                     </div>
                 </div>
-                <div className="col d-flex justify-content-end">
+{    !logged&&             <div className="col d-flex justify-content-end">
                     <span className='me-5 buttonSignLogNavbar' onClick={openLoginModal}>LOGIN</span>
-
                     <span className='me-5 buttonSignLogNavbar' onClick={openSignupModal}>SIGNUP</span>
-                </div>
+                </div>}
+{  logged&&             <div className="col d-flex justify-content-end">
+                    <span className='me-5 buttonSignLogNavbar' onClick={logOutHandler}>LOGOUT</span>
+                    <span className='me-5 buttonSignLogNavbar' ></span>
+                </div>}
             </nav>
         </div>
     )

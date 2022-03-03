@@ -1,5 +1,4 @@
-import { ADD_USER, DELETE_USER, LOGIN_USER } from "./types"
-
+import { ADD_USER, DELETE_USER, LOGIN_USER} from "./types"
 
 export const addUserAction = (user) => ({
     type: ADD_USER,

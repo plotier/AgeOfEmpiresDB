@@ -1,12 +1,11 @@
 import {createStore,} from "redux"
 import reducer from "./reducers/index";
-import { composeWithDevTools } from 'redux-devtools-extension';
+// import { composeWithDevTools } from 'redux-devtools-extension';
 import { devToolsEnhancer } from 'redux-devtools-extension';
 
 const initialState = {
 
-    users:[
-    ],
+    users:[],
     logged:false
 }
 

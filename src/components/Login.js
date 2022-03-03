@@ -6,29 +6,22 @@ import { addUserAction, loginUser } from "../redux/actions";
 
 export const Login = props => {
 
-const users = useSelector(state => state.users);
-const dispatch = useDispatch();
-const valueUserSaved = localStorage.getItem('userSaved');
-const newUserSaved = JSON.parse(valueUserSaved);
+  const users = useSelector(state => state.users);
+  const dispatch = useDispatch();
+  const valueUserSaved = localStorage.getItem('userSaved');
+  const newUserSaved = JSON.parse(valueUserSaved);
 
-
-useEffect(() => {
-  newUserSaved&&
-  newUserSaved.map(item=>dispatch(addUserAction(item)))
-}, [])
-
-
-
-
-
-
-
+  useEffect(() => {
+    newUserSaved &&
+      newUserSaved.map(item => dispatch(addUserAction(item)))
+  }, [])
 
   const valueLogged = localStorage.getItem('logged');
   const isLogged = JSON.parse(valueLogged);
 
   const [login, setLogin] = useState({})
-  const [logged, setLogged] = useState(()=>isLogged)
+  const [logged, setLogged] = useState(() => isLogged)
+
 
   const handlerLoginInput = e => {
     setLogin({
@@ -37,22 +30,25 @@ useEffect(() => {
     })
   }
 
-  const settingLocalStorage = () => {
-    localStorage.setItem('logged', JSON.stringify(logged))
-  }
 
+  //am i using this?
+  const settingLocalStorage = (tag, contentToSave) => {
+    localStorage.setItem(tag, JSON.stringify(contentToSave))
+  }
+  //
   const found = (e) => {
-e.preventDefault()
+    e.preventDefault()
     const user = users.find(element => element.email === login.email && element.password === login.password)
     user ? setLogged(logged => logged = true) : setLogged(logged => logged = false)
     user && alert(`Bienvenido, ${user.name}`)
     !user && alert(`Sus datos no son correctos, intente nuevamente`)
     dispatch(loginUser())
-    props.closingFunction()
+    user &&props.closingFunction()
+    user &&settingLocalStorage('loggedUser', user)
   }
 
   useEffect(() => {
-    settingLocalStorage()
+    settingLocalStorage('logged', logged)
   }, [logged])
 
   return (

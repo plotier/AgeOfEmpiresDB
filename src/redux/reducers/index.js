@@ -18,7 +18,7 @@ const todoReducer = (state, action)=>{
                 ...state,
                 logged:!state.logged
             }
-    
+  
         default:
            return state;
     }
