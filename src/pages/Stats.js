@@ -4,7 +4,6 @@ import { Navbar } from '../components/Navbar'
 import '../styles/Stats.css'
 import { useSelector } from 'react-redux'
 
-
 export const Stats = _ => {
   const logged = useSelector(state => state.logged);
 

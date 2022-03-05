@@ -3,7 +3,7 @@ import { UnitsList } from '../components/UnitsList'
 import { Navbar } from '../components/Navbar'
 import "../styles/Units.css"
 
-export const Units = (props) => {
+export const Units = _ => {
   return (
 
     <div className='backgroundContainerUnits'>

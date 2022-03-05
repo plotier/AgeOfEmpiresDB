@@ -23,28 +23,28 @@ export const RatingList = () => {
         )}
     </ul>
 
-    <ul >
+    <ul className="mx-5">
     <h5>Wins</h5>
       {
         leaderboard.map(item =>
           <li key={item.rank}>{item.wins}</li>
         )}
     </ul>
-    <ul >
+    <ul className="mx-5">
     <h5>Losses</h5>
       {
         leaderboard.map(item =>
           <li key={item.rank}>{item.losses}</li>
         )}
     </ul>
-    <ul >
+    <ul className="mx-5">
     <h5>Games</h5>
       {
         leaderboard.map(item =>
           <li key={item.rank}>{item.games}</li>
         )}
     </ul>
-    <ul >
+    <ul className="mx-5">
     <h5>Streak</h5>
       {
         leaderboard.map(item =>

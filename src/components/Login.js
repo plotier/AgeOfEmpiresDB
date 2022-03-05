@@ -54,10 +54,9 @@ export const Login = props => {
   return (
     props.trigger ?
       <form className='wholePupop'>
-        <div className='loginModal '>
+        <div className='loginModal pt-1'>
           <div onClick={props.closingFunction} className='cerrarLoginCruz' />
-          <div className='publiDisney'></div>
-          <h3 className="signInTitle">SIGN IN</h3>
+          <h3 className="signInTitle  text-dark">SIGN IN</h3>
           <input onChange={e => handlerLoginInput(e)} name="email" type="text" placeholder='Email Address' className=" form-control" />
           <input onChange={e => handlerLoginInput(e)} name="password" type="password" placeholder='Password' className=" form-control" />
           <button type='submit' onClick={(e) => { found(e) }} className="btn btn-secondary signInButton">Sign In</button>

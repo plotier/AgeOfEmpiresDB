@@ -7,3 +7,36 @@ z-index: 1;
 margin: auto;
 border-radius: 5%;
 }
+
+.signUpModal {
+    background-image: url("../img/oldPaper2.jpg");
+    width: 40%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 11;
+    opacity: 0.9;
+}
+.wholePupop {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cerrarSignUpCruz {
+    background-image: url(https://thumbs.dreamstime.com/b/cruz-de-la-espada-espadas-3237137.jpg);
+    width: 42px;
+    height: 42px;
+    margin-left: 90%;
+    background-size: cover  ;
+
+}
+.cerrarLoginCruz:hover {
+    cursor: pointer;
+}

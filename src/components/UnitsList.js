@@ -3,8 +3,6 @@ import axios from "axios";
 import { Selector } from "./Selector";
 import '../styles/UnitsList.css'
 
-/*Las imagenes se pueden rescatar desde esta ruta https://aoecompanion.com/civ-icons/aztecs.png*/
-
 export const UnitsList = () => {
   const [units, setUnits] = useState([]);
   const [totalUnitData, setTotalUnitData]=useState()

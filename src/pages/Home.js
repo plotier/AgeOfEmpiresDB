@@ -6,7 +6,7 @@ import defensive from '../img/defensive.png'
 import { Navbar } from '../components/Navbar'
 import { Link } from "react-router-dom"
 
-export const Home = (props) => {
+export const Home = _ => {
     return (
         <div className='backgroundContainer'>
             <Navbar />

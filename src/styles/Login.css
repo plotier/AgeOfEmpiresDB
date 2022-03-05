@@ -11,10 +11,12 @@
 }
 
 .cerrarLoginCruz {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAABaCAQAAACGNBdoAAAD+klEQVRYw+3YfWwLYRwH8ENnamztSiMU3X5bvEb2wpidtXtjRrzMSyLxJ4L4QyKRTGLESLxbI3pSkgr/kDDCtBvFUOptmyFYvG3rvK3WlU2Ylz16z11m1Nrn2pOQ3HfJ2rv73adPfvfcXXsUJUWKlH842xSP12xWkNW2Tni9nBjeo24oQ+hiqYIAP5rQ0fgN7d5E9SaiT49qcyNvKku1Sv+V1gTkZCuv3IoYRjhuXYbnLbtL1dkYP7g1kYMvVEZnUXLipuRket6wu1VbYpXdwo1sxfk7ygzCdnTi+haM37VAtO9WSxIHn7ujEAqzydC7MV5j/R3vhG8HBeOe65pfY7wMVF3gZA4uv6XQBwljPL35FcvcK4sbwPd4PAeX3YwKBcb4FA5/UB4zAMMv2SXrzShdiDDG6XeYu35mXx4HW25E6qgwUU78dLoJk1xKHZHpIsFspo9vcfKwvXeqiDBF1SS38uO2O7RDRIRRKsKHsuM7+/+xbcRAseDJHXh2H7uUt9RTz76rvThSLQ6Mz8lT9giaorJTPLjntRWjQsVRJmpiqZP2vjR38LImcvhze+LQkGjrCpYpuSpP+zkrMlNaGhDytOlnhjjuA4VnLsnpX6fb1Mn3HRmrKFWQZGOOo4SOYd/JBlPhv2+NUFHe21vB7Prj+YMEwg26e67nyFajGd59zbrspk9PvafQcCF4gf6J65H37sQ4osf5OUMT7zqfoRfo/LURgwnhJ2PqWh96YUNFWKpvK7omJanqxTNUj85V9FeSjVl1qNSFii/LJlGyQLUpSdV1DWiJSUY67kjV6g1hNNlFKG3i4kIKqJ5CjmQvAbWCYClSpEiRIuWvRaEkr1X3EwCrF8bVxk8lq403xN+OI/1iuXqcuh0QuCE7cC3s8FaiWJu2Dxkdod7L7gAtkBMA3onrPsTO1fYgbgns4XE/bYFduOY95Ak8kLAb7+jpDu/cPj2IWcKPygPT/MC5QU5Bvpc+AN+uP34oOb7Dt59QHPg4kOHbeXwGv2zAy+5As4cM38rjuV3gbEqc8LgLTuHXZsgS8ZoCW6AdswickCnyBQsqeXqjuGwP2AvfeNoFs8SDe4IRo41wBL+2wRyxYIYfrffnPxSJhoMc9vNwOr+Gwz9Cfoh07FoMNcGULh+3Ca/7AqNDouPjtFVD3Br617WaIk2HZrtGHiS6SL4NgyuHzprguzUfnzTz+helCobNMrPZ9NW0zOTn16NZZT5x4ItpgSDYEMYcZJD3z8n4eYDFzMc1nxly3BZlOIx3esvQ/uoYGVOI69qZxUaye6NtrOEjhgn6yKzHuMUYTjju4lxjtTGNrNZYZLxgFPLczy1gYrlDfyIsRcp/kx+m2TQJtWzQygAAAABJRU5ErkJggg==);
+    background-image: url(https://thumbs.dreamstime.com/b/cruz-de-la-espada-espadas-3237137.jpg);
     width: 42px;
     height: 42px;
     margin-left: 90%;
+    background-size: cover  ;
+    background-color: transparent;
 
 }
 
@@ -23,7 +25,7 @@
 }
 
 .loginModal {
-    background-color: #151515;
+    background-image: url("../img/oldPaper2.jpg");
     width: 40%;
     height: 440px;
     display: flex;

@@ -19,9 +19,11 @@ export const Navbar = ({blink}) => {
 
     const openLoginModal = () => {
         setOpenedLogin(openedLogin => !openedLogin)
+        setOpenedSignup(openedSignup =>openedSignup&& !openedSignup )
     }
     const openSignupModal = () => {
         setOpenedSignup(openedSignup => !openedSignup)
+        setOpenedLogin(openedLogin =>openedLogin&& !openedLogin)
     }
     const valueUserLogged = localStorage.getItem('loggedUser');
     const userLogged = JSON.parse(valueUserLogged);
