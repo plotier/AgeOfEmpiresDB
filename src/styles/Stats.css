@@ -6,3 +6,7 @@
     background-size: cover;
     color:white;
 }
+
+  @keyframes blinker {  
+    50% { opacity: 0; }
+  }

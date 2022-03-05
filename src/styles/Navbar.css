@@ -18,5 +18,9 @@ padding: 5px;
 .dbBox2 {
     background-color:  rgba(206, 68, 42, 0.2);    
     border-radius: 10px;
-
 }
+.blink_me {
+    animation: blinker 1s linear infinite;
+    position: relative;
+    border: 1px solid ;
+  }

@@ -48,3 +48,8 @@
   .ul :nth-child(2n){
     color: blue;
   }
+  .rankingBackground{
+    background-color: rgba(206, 68, 42, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+  }

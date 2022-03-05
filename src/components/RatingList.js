@@ -14,7 +14,7 @@ export const RatingList = () => {
   }, []);
 
   return (
-<div className="d-flex">
+<div className="d-flex rankingBackground">
     <ul className="rankingUl">
     <h5>Player</h5>
       {
