@@ -15,7 +15,7 @@ export const Home = _ => {
                     <img className="card-img-top" src={castle} alt="Card image cap" />
                     <div className="card-body text-center">
                         <h5 className="card-title">Units</h5>
-                        <p className="card-text ">Every unit in the game with its counter units</p>
+                        <p className="card-text ">Counter units</p>
                         <Link to="/units/" className="btn btn-dark">UNITS</Link>
                     </div>
                 </div>

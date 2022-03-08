@@ -8,16 +8,16 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .cerrarLoginCruz {
-    background-image: url(https://thumbs.dreamstime.com/b/cruz-de-la-espada-espadas-3237137.jpg);
-    width: 42px;
-    height: 42px;
+    background-image: url(../img/swords.svg);
+    width: 28px;
+    height: 28px;
     margin-left: 90%;
     background-size: cover  ;
-    background-color: transparent;
-
+    margin-top: 5px;
 }
 
 .cerrarLoginCruz:hover {
@@ -25,18 +25,18 @@
 }
 
 .loginModal {
-    background-image: url("../img/oldPaper2.jpg");
+    background-image: url("../img/popup.jpg");
     width: 40%;
-    height: 440px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 11;
+
     opacity: 0.9;
 }
 #signUpModal{
     height: 600px;
-    z-index: 11;
+ 
     opacity: 0.9;
 }
 
@@ -44,7 +44,7 @@
     background-color: transparent;
     text-align: center;
     color: white;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .loginModal input {
@@ -66,12 +66,4 @@
     height: 40px;
     margin-top: 5%;
     margin-bottom: 30px;
-}
-
-.publiDisney {
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: center;
-    background-size: contain;
-
 }

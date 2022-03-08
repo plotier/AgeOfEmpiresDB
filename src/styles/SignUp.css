@@ -3,20 +3,21 @@ height: 20rem;
 width: 20rem;
 background-color: aliceblue;
 position: absolute;
-z-index: 1;
 margin: auto;
 border-radius: 5%;
+
 }
 
 .signUpModal {
-    background-image: url("../img/oldPaper2.jpg");
+    background-image: url("../img/popup.jpg");
+    background-size: contain;
     width: 40%;
     height: 440px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 11;
     opacity: 0.9;
+   
 }
 .wholePupop {
     background-color: rgba(0, 0, 0, 0.9);
@@ -28,15 +29,18 @@ border-radius: 5%;
     align-content: center;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    
 }
 .cerrarSignUpCruz {
-    background-image: url(https://thumbs.dreamstime.com/b/cruz-de-la-espada-espadas-3237137.jpg);
-    width: 42px;
-    height: 42px;
+    background-image: url(../img/swords.svg);
+    width: 28px;
+    height: 28px;
     margin-left: 90%;
     background-size: cover  ;
-
+    margin-top: 5px;
+    
 }
-.cerrarLoginCruz:hover {
+.cerrarSignUpCruz:hover {
     cursor: pointer;
 }

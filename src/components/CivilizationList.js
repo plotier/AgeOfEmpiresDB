@@ -44,7 +44,7 @@ export const CivilizationList = () => {
                   <img className="iconCivilization"  src={"https://aoecompanion.com/" + item.icon_url} alt="Avatar" />
                 </div>
                 <div className="flip-card-back"> 
-                  <p>{item.short_description}</p>
+                  <p className="text-decoration-underline">{item.short_description}</p>
                   {civilizationsUnique.map(civ=>civ.civilization.name==item.name &&
                   <div key={civ.id}>
                   <p className="my-auto">{civ.name.replace('Line','')}</p> 

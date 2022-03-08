@@ -8,11 +8,11 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { loginUser } from "../redux/actions";
 import { useLocation  } from 'react-router-dom';
+import { SimplePupop } from './SimplePupop'
 
 export const Navbar = ({blink}) => {
 
   const location = useLocation();
-  console.log(location.pathname)
 
     const [openedLogin, setOpenedLogin] = useState(false)
     const [openedSignup, setOpenedSignup] = useState(false)
@@ -56,7 +56,9 @@ export const Navbar = ({blink}) => {
                 {logged && <div className="col d-flex justify-content-end">
                     <span className='me-5 buttonSignLogNavbar' onClick={logOutHandler}>LOGOUT</span>
                     <span className='me-5 buttonSignLogNavbar' ></span>
-                </div>}
+                </div>
+                 }
+                
             </nav>
         </div>
     )

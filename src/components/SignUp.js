@@ -29,6 +29,7 @@ export const SignUp = props => {
         setDatosUsuario("");
         props.triggerOff() 
         localStorage.setItem('userSaved', JSON.stringify([...users,newUser]))
+        // localStorage.setItem('userSaved', JSON.stringify([...users,newUser]))
     }
 
     return (
@@ -37,7 +38,7 @@ export const SignUp = props => {
             <form className='signUpModal text-center pt-1' >
             <div onClick={props.triggerOff} className='cerrarSignUpCruz ' />
 
-                <h3 className="signInTitle text-dark">Create your account</h3>
+                <h3 className="signInTitle text-light">Create your account</h3>
                 <input onChange={e => handleUserInput(e)} type="text" name='firstName' placeholder='First Name' className="m-2 w-75 form-control" required />
                 <input onChange={e => handleUserInput(e)} type="text" name='lastName' placeholder='Last Name' className="m-2 w-75  form-control" required />
                 <input onChange={e => handleUserInput(e)} type="text" name='email' placeholder='Email Address' className="m-2 w-75  form-control" required />
