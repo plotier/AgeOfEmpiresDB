@@ -1,0 +1,13 @@
+.selectStyle{
+    width: 30rem;
+    border: solid;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 4rem;
+    color:black;
+}
+.unitSelectorIcon{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 100%;
+}

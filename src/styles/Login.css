@@ -1,0 +1,69 @@
+.wholePupop {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.cerrarLoginCruz {
+    background-image: url(../img/swords.svg);
+    width: 28px;
+    height: 28px;
+    margin-left: 90%;
+    background-size: cover  ;
+    margin-top: 5px;
+}
+
+.cerrarLoginCruz:hover {
+    cursor: pointer;
+}
+
+.loginModal {
+    background-image: url("../img/popup.jpg");
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    opacity: 0.9;
+}
+#signUpModal{
+    height: 600px;
+ 
+    opacity: 0.9;
+}
+
+.signInTitle {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.loginModal input {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.loginModal :nth-child(2n) {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+}
+
+.signInButton {
+    width: 80%;
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 30px;
+}

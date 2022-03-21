@@ -1,10 +1,15 @@
 import React from 'react'
-import {UnitsList} from '../components/UnitsList'
+import { UnitsList } from '../components/UnitsList'
+import { Navbar } from '../components/Navbar'
+import "../styles/Units.css"
 
-
-export const Units = (props) => {
+export const Units = _ => {
   return (
-    <div><UnitsList/></div>
+
+    <div className='backgroundContainerUnits'>
+      <Navbar />
+      <UnitsList />
+    </div>
   )
 }
 

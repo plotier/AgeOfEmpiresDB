@@ -1,0 +1,30 @@
+.wholeNavbar{
+    margin: 50;
+}
+
+.navbarLogo{
+margin:auto
+}
+.navbarLogo img{
+width: 10rem;
+}
+.buttonSignLogNavbar{
+cursor: pointer;
+color: rgba(206, 68, 42, 1);
+background-color:  rgba(206, 68, 42, 0.1);    
+border-radius: 10px;
+padding: 5px;
+}
+.dbBox{
+    background-color:  rgba(206, 68, 42, 0.2);    
+    border-radius: 10px;
+}
+.dbBox2 {
+    background-color:  rgba(206, 68, 42, 0.2);    
+    border-radius: 10px;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+    position: relative;
+    border: 1px solid ;
+  }

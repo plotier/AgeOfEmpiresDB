@@ -1,0 +1,46 @@
+.popupSignUp{
+height: 20rem;
+width: 20rem;
+background-color: aliceblue;
+position: absolute;
+margin: auto;
+border-radius: 5%;
+
+}
+
+.signUpModal {
+    background-image: url("../img/popup.jpg");
+    background-size: contain;
+    width: 40%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+   
+}
+.wholePupop {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+.cerrarSignUpCruz {
+    background-image: url(../img/swords.svg);
+    width: 28px;
+    height: 28px;
+    margin-left: 90%;
+    background-size: cover  ;
+    margin-top: 5px;
+    
+}
+.cerrarSignUpCruz:hover {
+    cursor: pointer;
+}
