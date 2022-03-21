@@ -28,4 +28,4 @@ npm run start
 ```
 Open http://localhost:3000 to view it in your browser.
 
-Special thanks to the AOE Companion guys. I wrote them asking if i could use their API, cause there is not an official AOE2 API to work with. Also found we have not only AOE in common, we also share love for J.L.Borges :P.
+Special thanks to the AOE Companion guys. I wrote them asking if i could use their API, cause there is not an official AOE2 API to work with. Also i´ve found we have not only AOE in common, we also share love for J.L.Borges :P.
