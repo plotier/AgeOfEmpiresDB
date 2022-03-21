@@ -35,7 +35,7 @@ export const Selector = (props) => {
                    
                         {chosenUnit[0].unit_line !== null &&
                             unitsLineData.map(item => item.id == chosenUnit[0].unit_line.id &&
-                                <div className='row'>
+                                <div key={item.id} className='row'>
                                     <div className="col">                                   <h3>Category</h3>
                                         {item.category.toUpperCase()}
                                         <h3>Name</h3>
@@ -48,7 +48,7 @@ export const Selector = (props) => {
                                             {
                                                 item.units.map(unit => unit.id == chosenUnit[0].id &&
                                                     item.unit_counters.map(item => unitsLineData.map(lastItem => lastItem.id == item.unit_id &&
-                                                        <li>{lastItem.name}</li>)))
+                                                        <li key={unit.id}>{lastItem.name}</li>)))
                                             }
                                         </ul></div>
 

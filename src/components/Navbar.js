@@ -38,10 +38,10 @@ export const Navbar = ({blink}) => {
     const dispatch = useDispatch();
     const logged = useSelector(state => state.logged);
     return (
-        <div>
+        <div className='wholeNavbar'>
             <Login trigger={openedLogin} closingFunction={openLoginModal} />
             <SignUp trigger={openedSignup} triggerOff={openSignupModal} />
-            <nav className="navbar navbar-light bg-transparent row">
+            <nav className="navbar navbar-light bg-transparent">
                 <div className="col d-flex justify-content-center dbBox2">{logged && userLogged.name}</div>
                 <div className="col-6 d-flex">
                     <div className='navbarLogo'>

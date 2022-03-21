@@ -10,7 +10,7 @@ export const Stats = _ => {
   return (
     <div className='backgroundRatingListContainer'>
       <Navbar blink={logged} />
-      <div className="row">
+      <div>
         <div className="d-flex flex-column align-items-center">
           {logged &&
             <RatingList />}
